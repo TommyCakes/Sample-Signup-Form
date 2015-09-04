@@ -1,0 +1,56 @@
+body {
+  color:#4d4d4d;
+  text-align:center;
+}
+  #logo {
+    float:left;
+    height:100px;
+    width:300px;
+  }
+  h1 {
+     color:grey;
+     font-size:5vh ;
+  }
+  .brand-logo {
+    background:url('http://www.acme.ac/uploads/pages/image1.jpg/original.jpg'); no-repeat center center fixed;
+    -webkit-background-size: cover;
+    position:absolute;
+    height:150px;
+    width:300px;
+    top:150px;
+  }
+
+  .info {
+    border:1px dotted #4d4d4d;
+    width:80%;
+    height:50vh;
+    margin: 0 auto;
+    position:relative;
+    margin-top:2em;
+  }
+  input {
+  display:block;
+  position:relative;
+  width:50%;
+  float:right;
+  top:100px;
+  height:5vh;
+  margin-bottom:1%;
+  margin-right:3%;
+}
+button {
+  width:50%;
+  float:right;
+  margin-right:3%;
+  position:relative;
+  top:100px;
+}
+footer {
+  border-left:1px solid#4d4d4d;
+  border-right:1px solid#4d4d4d;
+  border-bottom:1px solid#4d4d4d;
+  width:80%;
+  height:8vh;
+  margin: 0 auto;
+
+}
